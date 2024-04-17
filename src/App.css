@@ -1,0 +1,35 @@
+/* Home */
+#home {
+    /* Add a linear gradient background */
+    background: linear-gradient(90deg, rgb(219, 215, 0) 50%, rgb(0, 255, 51) 100%);
+    
+    /* Add a background image */
+    background-image: url("https://s33007.pcdn.co/wp-content/uploads/2020/06/health-care-doctor-monitor.jpg");
+    background-size: cover; /* Adjust as needed */
+    background-position: center center; /* Adjust as needed */
+  
+    min-height: 500px;
+  }
+  
+/*Cards*/
+.card{
+    transition: all 0.5s ease;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+/* Form */
+.form{
+    background: rgb(200, 211, 225);
+    background: linear-gradient(90deg,rgb(195, 197, 194) 40%,rgb(158, 165, 167) 100%);
+}
+
+
+  
+
+/*Footer*/
+.footer{
+    background: rgb(0, 219, 47);
+    background: linear-gradient(90deg,rgb(132, 216, 166) 40%,rgb(100, 148, 89) 100%);
+}

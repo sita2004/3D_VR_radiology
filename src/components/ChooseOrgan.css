@@ -1,0 +1,54 @@
+/* MainPage.css */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.prediction-button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #2980b9;
+  }
+}
+
+/* Button-specific styles */
+.lungs {
+  background-color: #3498db;
+}
+
+.heart {
+  background-color: #e74c3c;
+}
+
+.brain {
+  background-color: #27ae60;
+}
